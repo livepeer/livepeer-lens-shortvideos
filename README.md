@@ -20,7 +20,6 @@ Monetization
 
 
 
-
 ## Overview
 
 **What is a short-form video social app?**
@@ -29,12 +28,12 @@ The most known short-form video social app is TikTok, other apps add short-form 
 
 **Why build a short-form video social app?**
 
-[Over 1 billion minutes of video](https://techjury.net/blog/tiktok-statistics/) are viewed each day on TikTok. Video consumption has become part of everyday life for billions of people, itâ€™s only a matter of time before thereâ€™s a web3 disrupter.
+[Over 1 billion minutes of video](https://techjury.net/blog/tiktok-statistics/) are viewed each day on TikTok. Video consumption has become part of everyday life for billions of people, it is only a matter of time before there is a web3 disrupter.
 ## Content
 
 **What is video streaming?**
 
-To stream video requires that video files are uploaded, transcoded (processed to optimally play for viewers on all bandwidths and device types), and played back (called via a userâ€™s device to playback on a screen.) Without these critical components, video buffering leads to a poor user experience and churn.
+To stream video requires that video files are uploaded, transcoded (processed to optimally play for viewers on all bandwidths and device types), and played back (called via a user's device to playback on a screen.) Without these critical components, video buffering leads to a poor user experience and churn.
 
 **What choices are there to consider when building your app?**
 
@@ -57,7 +56,7 @@ To stream video requires that video files are uploaded, transcoded (processed to
 
 **Editing Software**
 
-Content creators generally expect video editing capabilities inside of social apps and there are many available. Here are a few to check out:Â  ****[ShotStack](https://shotstack.io/docs/guide/), [Banuba](https://www.banuba.com/video-editor-sdk), [Img.ly](https://img.ly/docs/vesdk/).
+Content creators generally expect video editing capabilities inside of social apps and there are many available. Here are a few to check out: [ShotStack](https://shotstack.io/docs/guide/), [Banuba](https://www.banuba.com/video-editor-sdk), [Img.ly](https://img.ly/docs/vesdk/).
 
 **Interactive Elements**
 
@@ -65,10 +64,10 @@ Providing the ability to add polls can be a fun element for creators to engage t
 
 **Storage**
 
-- [ARWEAVE](https://www.arweave.org/) is a decentralized storage protocol focused on permanence. Content is uploaded to the network with a one-time fee and guaranteed to be available for 200 years. The simplest way to upload data into Arweave is to use a service like Bundlr thatâ€™s built on top of Arweave and simplifies the developer experience.
+- [ARWEAVE](https://www.arweave.org/) is a decentralized storage protocol focused on permanence. Content is uploaded to the network with a one-time fee and guaranteed to be available for 200 years. The simplest way to upload data into Arweave is to use a service like Bundlr that iss built on top of Arweave and simplifies the developer experience.
     - [Arweave Docs](https://www.arweave.org/build)
     - [Bundlr Docs](https://docs.bundlr.network/)
-- [IPFS](https://ipfs.tech/) is a decentralized storage protocol that assigns a unique fingerprint to all data uploaded to the network based on the dataâ€™s content. Nodes in the network can cache the data, but data is not guaranteed to be available unless it is pinned to a node. Services like PiÃ±ata, web3.storage, and Lighthouse abstract away the complexity of managing and pinning data in the IPFS ecosystem.
+- [IPFS](https://ipfs.tech/) is a decentralized storage protocol that assigns a unique fingerprint to all data uploaded to the network based on the data's content. Nodes in the network can cache the data, but data is not guaranteed to be available unless it is pinned to a node. Services like Pinara, web3.storage, and Lighthouse abstract away the complexity of managing and pinning data in the IPFS ecosystem.
     - [IPFS Docs](https://docs.ipfs.tech/)
     - [Pinata Docs](https://docs.pinata.cloud/)
     - [web3.storage Docs](https://web3.storage/docs/)
@@ -106,3 +105,4 @@ Do you have ideas to contribute to this guide? [Let us know](https://livepeer.ty
 
 ##### Collaborators:
 - @danielapassos
+- @suhailkakar
