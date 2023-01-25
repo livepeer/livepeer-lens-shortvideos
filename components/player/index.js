@@ -18,10 +18,11 @@ export default function VideoPlayer({ data, isActive }) {
     >
       <StatusBar barStyle={"light-content"} />
       <Player
-        title=""
-        src={data.metadata.media[0].original.url}
-        autoUrlUpload={{ fallback: true, ipfsGateway: "https://w3s.link" }}
+        src={getIPFSLink(data.metadata.media[0].original.url)}
+        priority
         aspectRatio={"16:9"}
+        loop
+        autoplay={isActive}
       />
       <View style={styles.bottomSection}>
         <View style={styles.bottomLeftSection}>

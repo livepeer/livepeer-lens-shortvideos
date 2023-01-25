@@ -6,6 +6,7 @@ import {
   LivepeerConfig,
   studioProvider,
 } from "@livepeer/react-native";
+import { LogBox } from "react-native";
 
 const client = new ApolloClient({
   uri: "https://api.lens.dev",
@@ -16,6 +17,7 @@ const livepeerClient = createReactClient({
   provider: studioProvider({ apiKey: "LIVEPEER_STUDIO_API_KEY" }),
 });
 
+LogBox.ignoreAllLogs();
 export default function App() {
   return (
     <NavigationContainer>
